@@ -8,7 +8,7 @@ Just naive javacript implementations of sorting algorithms and data structures t
 - [x] Selection sort
 - [x] Insertion sort
 - [ ] Heap sort
-- [ ] Merge sort
+- [x] Merge sort
 - [ ] Quicksort
 
 ### List search
