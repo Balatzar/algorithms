@@ -6,7 +6,7 @@ Just naive javacript implementations of sorting algorithms and data structures t
 
 - [x] Buble sort
 - [x] Selection sort
-- [ ] Insertion sort
+- [x] Insertion sort
 - [ ] Heap sort
 - [ ] Merge sort
 - [ ] Quicksort

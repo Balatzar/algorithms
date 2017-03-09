@@ -21,5 +21,4 @@ function bubleSort(input) {
 `
 Possible improvements :
 _ Detect when an item is sorted and make the loop stop before it in the next iterations
-_ Make bubleSort not mutate the array provided
 `

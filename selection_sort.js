@@ -22,8 +22,3 @@ function selectionSort(input, sortedItemsNb = 0) {
 
   return sortedItemsNb === input.length ? input : selectionSort(input, sortedItemsNb)
 }
-
-`
-Possible improvements :
-_ Make selectionSort not mutate the array provided
-`
