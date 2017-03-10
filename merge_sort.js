@@ -5,16 +5,16 @@ console.log(mergeSort(input))
 function mergeSort(input) {
   if (input.length > 1) {
     const half = Math.ceil((input.length - 1) / 2)
-    return sortArrays(mergeSort(input.slice(0, half)), mergeSort(input.slice(half, input.length)))
+    return sortAndMergeArrays(mergeSort(input.slice(0, half)), mergeSort(input.slice(half, input.length)))
   } else {
     return input
   }
 }
 
-function sortArrays(arr1, arr2) {
+function sortAndMergeArrays(arr1, arr2) {
   const arr = []
 
-  while(arr1.length || arr2.length) {
+  while (arr1.length || arr2.length) {
     if (arr1.length && arr2.length) {
       if (arr1[0] < arr2[0]) {
         arr.push(arr1.shift())
