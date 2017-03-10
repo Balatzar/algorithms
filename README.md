@@ -13,7 +13,7 @@ Just naive javacript implementations of sorting algorithms and data structures t
 
 ### List search
 
-- [ ] Linear search
+- [x] Linear search
 - [x] Binary search
 
 ### Data structures
