@@ -1,0 +1,8 @@
+extends: airbnb-base
+plugins:
+  - import
+env:
+  node: true
+globals:
+rules:
+  semi: 0
